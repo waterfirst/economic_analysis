@@ -12,7 +12,7 @@ import os
 try:
     fred_api_key = st.secrets["fred_api_key"]
 except KeyError:
-    fred_api_key = os.environ.get("FRED_API_KEY")
+    fred_api_key = os.environ.get("fred_api_key")
 
 if not fred_api_key:
     st.error(
