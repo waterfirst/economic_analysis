@@ -1,7 +1,0 @@
-streamlit
-yfinance
-pandas
-matplotlib
-datetime
-fredapi
-seaborn
